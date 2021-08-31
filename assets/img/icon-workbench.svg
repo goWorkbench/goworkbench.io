@@ -1,0 +1,20 @@
+
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="61.83005 0.34 123.66 0.34 123.66 124 61.83005 124 0.0001 124 0.0001 0.34"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Workbench-Icon" transform="translate(0.000000, -1.000000)">
+            <g id="Group-3" transform="translate(0.000000, 0.660000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M61.7811,111.877 C34.2851,111.877 12.0261,89.618 12.0261,62.121 C12.0261,34.626 34.2851,12.367 61.7811,12.367 C89.2771,12.367 111.5371,34.626 111.5371,62.121 C111.5371,89.618 89.2771,111.877 61.7811,111.877 M61.8301,0.34 C27.6901,0.34 0.0001,28.03 0.0001,62.17 C0.0001,96.31 27.6901,124 61.8301,124 C95.9691,124 123.6601,96.31 123.6601,62.17 C123.6601,28.03 95.9691,0.34 61.8301,0.34" id="Fill-1" fill="#0080FB" mask="url(#mask-2)"></path>
+            </g>
+            <polygon id="Fill-4" fill="#0080FB" points="93.2537 77.9598 93.2537 86.7858 79.5297 86.7858 66.9707 50.8998 57.0767 50.8998 48.6887 75.1468 44.6137 86.9808 32.5877 86.7368 44.9047 50.8998 34.0427 50.8998 34.0427 39.3588 89.9567 39.3588 89.9567 50.8998 79.1427 50.8998 88.4527 77.9598"></polygon>
+        </g>
+    </g>
+</svg>

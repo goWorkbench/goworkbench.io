@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/favicon/apple-icon-76x76.png">
+	<link rel="icon" type="image/png" href="../assets/img/favicon/favicon.ico">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<title>Workbench | Beautiful. Simple. Fintech APIs.</title>
+	<meta name="description" content="Build banking products lightning fast. One banking integration. Simple. End to end customer experience No need to re-invent the wheel." />
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Workbench Inc.">
+	<meta property="og:description" content="Workbench provides on-demand financial infrastructure for innovation called Banking-as-a-Service ("BaaS").  BaaS enables anyone to plug and play banking products and services.">
+	<meta property="og:url" content="https://goworkbench.io">
+	<meta property="og:image" content="https://goworkbench.io/assets/img/indeximage2.svg">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@goworkbench">
+	<meta name="twitter:title" content="Workbench | Beautiful. Simple. Fintech APIs">
+	<meta name="twitter:description" content="Workbench provides on-demand financial infrastructure for innovation called Banking-as-a-Service ("BaaS").  BaaS enables anyone to plug and play banking products and services.">
+	<meta name="twitter:image" content="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/17861716_100327440526860_8289784442431169094_n.png?oh=790b01344ef29926d152a75d883995d7&oe=598A4701">
+	<meta name="twitter:image:alt" content="Workbench Inc.">
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Playfair+Display:400,700,900|Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+	<link href="../assets/css/wb_custom.css" rel="stylesheet"/>
+
+	<!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/material-kit.css" rel="stylesheet"/>
+	<link href="../assets/css/wb.css" rel="stylesheet"/>
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+	<!-- Chat Support -->
+	<!--<script src="https://embed.small.chat/T1R6HL6QZG51653U9Y.js" async></script>-->
+
+	<!-- GOOGLE ANALYTICS CODE -->
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  		ga('create', 'UA-93538087-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#0080fb"
+    },
+    "button": {
+      "background": "#ffffff",
+      "text": "#0080fb"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "Workbench uses cookies to help make your experience better. ",
+    "dismiss": "OK Thanks!",
+    "href": "../../legal/privacy"
+  }
+})});
+</script>
+
+
+
+
+
+</head>
+
+<body class="index-page">
+	<nav class="navbar navbar-default navbar-fixed-top" id="sectionsNav">
+    	<div class="container">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a href="#"><h4 class="icon-workbench_full workbenchLogoBlue workbenchLogoH1"></h4></a>
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+    				<li class="dropdown fontBluePrimary">
+						<a href="products/" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="material-icons">apps</i> Products
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu dropdown-with-icons">
+							<li>
+								<a href="products/accounts">
+									<i class="material-icons">account_balance</i> Accounts
+								</a>
+							</li>
+							<li>
+								<a href="products/payments">
+									<i class="material-icons">monetization_on</i> Payments
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="fontBluePrimary">
+						<a href="/fintech/about/contact">
+							<i class="material-icons">email</i> Contact Us</a>
+					</li>
+					<li>
+						<a href="https://docs.goworkbench.io" class="btn btn-primary btn-round">
+						<i class="material-icons">code</i> API Docs</a>
+					</li>
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+<!-- to add background style use style="background-image: url('../assets/img/bg9.jpg');" -->
+<!--     *********    MAIN HEADER SECTION     *********      -->
+    <div class="page-header header-filter indexpage-height">
+		<div class="container">
+    		<div class="row" id="title-heading">
+				<div class="col-md-7">
+					<h1 class="title">Beautiful. Simple. </br>Fintech APIs.</h1>
+                    <h4>We help anyone provide financial products and services in minutes, with “plug and play”
+											<div class="tooltip-wrap">
+												<a id="api" class="tooltip-reference" style="position: relative;">APIs</a>.
+												<div id="api-tooltip" class="tooltip">
+													API stands for Application Programming Interface, it’s a piece of computer code that, when executed, gets a computer to perform a function.
+													Great APIs are easy for developers to use, they perform complex tasks, working as stand-alone modules or fitting together like building blocks to create powerful solutions.
+												</div>
+											</div>
+											</h4>
+
+				</div>
+				<div class="col-md-5 text-center"> 
+                  <img class="scaledImage removeForSmallscreen" src="../assets/img/indeximage2.svg">
+			    </div>
+            </div>
+			<div class="row" id="title-buttons">
+				<div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-3 text-center"> 
+                  <a href="products/" class="btn btn-primary btn-round text-center">
+						<i class="material-icons">layers</i> Explore our Products
+					</a>
+			    </div>
+				<div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 text-center">
+                  <a href="#FirstInfoSection" class="btn btn-primary btn-round btn-simple text-center">
+						<i class="fa fa-arrow-circle-down"></i> Find out more
+					</a>
+			    </div>
+           </div>
+        </div>
+	</div>
+
+<!--     *********    INTRODUCTION SECTION     *********      -->
+	<div class="intro">
+		<div class="container">
+			<hr class="hrdivder" id="FirstInfoSection">
+			<div class="about-description">
+                <div class="row" style="padding-top: 75px">
+    				<div class="col-md-8 col-md-offset-2 text-center">
+						<img class="scaledImage" src="../assets/img/intrographic1.svg">
+    				</div>
+					<div class="col-md-8 col-md-offset-2" style="padding-top: 40px; padding-bottom: 40px">
+    					<h5 class="description">Build the future of financial products and services. Outsource or replace old financial infrastructure. Add fintech to your current offering without having to build the infrastructure, without the usual costly, time-consuming, manual integrations. All in a matter of minutes, with Workbench APIs.</h5>
+    				</div>
+    			</div>
+            </div>
+        </div>
+    </div>
+
+<!--     *********    BENEFITS SECTION     *********      -->
+	<div id="benefits" class="cd-section section-light-gray cards">
+	    			<div class="container">	        			
+						<div class="col-md-8 col-md-offset-2" style="padding-top: 40px">
+    					<h2 class="text-center">What's in it for me, you ask?</h2>
+    				</div>
+					<div class="col-md-8 col-md-offset-2" style="padding-top: 10px; padding-bottom: 40px">
+    					<h5 class="description">Workbench helps you build financial products and services by taking care of the infrastructure, fast. Get started and see for yourself. With simple, safe, secure, scalable and compliant APIs that you never have to upgrade, we take care of the fintech nuts and bolts.</h5>
+    				</div>
+	    				<div class="row">
+	    					<div class="col-md-4 col-sm-4">
+								<div class="card cardTopBorderPrimary cardBenefits">
+	    							<div class="content content-primary text-center">
+	    								<img src="../assets/img/lightning.svg">
+										<h4 class="darkText">Faster to market</h4>
+										<p class="darkText">Build banking products lightning fast.</p>
+	    							</div>
+	    						</div>
+	    					</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="card cardTopBorderPrimary cardBenefits">
+	    							<div class="content content-primary text-center">
+	    								<img src="../assets/img/puzzle.svg">
+										<h4 class="darkText">Easy, once only integration</h4>
+										<p class="darkText">In minutes, not months.</p>
+	    							</div>
+	    						</div>
+	    					</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="card cardTopBorderPrimary cardBenefits">
+	    							<div class="content content-primary text-center">
+	    								<img src="../assets/img/arrows.svg">
+										<h4 class="darkText">Seamless connectivity</h4>
+										<p class="darkText">End to end customer experience</p>
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+
+<!--     *********    CUSTOMERS SECTION     *********      -->
+	<div class="customers">
+		<div class="container">
+			<div class="about-description">
+                <div class="row" style="padding-top: 60px">
+    				<div class="col-md-8 col-md-offset-2 text-center" style="padding-bottom: 60px">
+						<h2 class="text-center">For customers of all shapes and sizes.</h2>
+						
+    				</div>
+					<row>
+					<div class="row">
+	    					<div class="col-md-4 col-sm-4">
+	    						<div class="card card-profile">
+	    							<div class="card-image">
+	    								<a href="#pablo">
+	    									<img class="img" src="../assets/img/startupIcon.svg" />
+	    								</a>
+	    							</div>
+	    							<div class="content cardCustomers">
+	    								<h4 class="category text-info minorHeading darkText">Fintechs and Startups</h4>
+	    								<p class="cardDescriptionLeft">
+	    									No need to re-invent the wheel. Workbench APIs allow you to avoid manual integration with banks, a costly and time-consuming process. All the infrastructure has been done for you so you can get to market sooner and stay focussed on your customers and core offering.
+	    								</p>
+	    							</div>
+	    						</div>
+	    					</div>
+							<div class="col-md-4 col-sm-4">
+	    						<div class="card card-profile">
+	    							<div class="card-image">
+	    								<a href="#pablo">
+	    									<img class="img" src="../assets/img/bankIcon.svg" />
+	    								</a>
+	    							</div>
+	    							<div class="content cardCustomers">
+	    								<h4 class="category text-info minorHeading darkText">Financial Institutions</h4>
+	    								<p class="cardDescriptionLeft">
+	    									Don’t be bound by legacy IT infrastructure. Workbench APIs provide regulatorily compliant, bank-grade secure digital banking infrastructure, without the usual high costs and long timeframes. Connect to customers easily and be as flexible as the future requires.
+	    								</p>
+	    							</div>
+	    						</div>
+	    					</div>
+							<div class="col-md-4 col-sm-4">
+	    						<div class="card card-profile">
+	    							<div class="card-image">
+	    								<a href="#pablo">
+	    									<img class="img" src="../assets/img/techBusiness.svg" />
+	    								</a>
+	    							</div>
+	    							<div class="content cardCustomers">
+	    								<h4 class="category text-info minorHeading darkText">Entrepreneurial Companies</h4>
+	    								<p class="cardDescriptionLeft">
+												Add Workbench APIs to your existing product so your customers don’t have to go somewhere else. Seamlessly add financial products and services into your existing product so your customers stay with you, improving their experience of your online service.
+	    								</p>
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</div>
+					</row>
+    			</div>
+            </div>
+        </div>
+    </div>
+
+<!--     *********    PRODUCTS SECTION     *********      -->
+	<div class="products">
+		<div class="container">
+			<hr class="hrdivder" id="productsSection">
+			<div class="about-description">
+                <div class="row" style="padding-top: 60px">
+    				<div class="col-md-8 col-md-offset-2 text-center">
+						<h2 class="text-center">Explore our products.</h2>
+					 <h5> All of our APIs are seamlessly plug and play. Use one API or any combination to build your solution.</h5>
+    				</div>
+					<div class="col-md-12" style="padding-top: 40px; padding-bottom: 40px">
+    					<div class="row">
+							<div class="col-md-4 col-sm-6 col-md-offset-2">
+								<div class="card cardTopBorderYellow cardhover">
+	    							<div class="content content-primary">
+	    								<i class="material-icons darkText">account_balance</i>
+										<h4 class="darkText">Accounts</h4>
+										<p class="darkText">On-demand bank accounts</p>
+										<p><a href="/fintech/products/accounts/" class="yellowText">Learn more ></a></p>
+	    							</div>
+	    						</div>
+	    					</div>
+							<div class="col-md-4 col-sm-6">
+								<div class="card cardTopBorderPurple cardhover">
+	    							<div class="content content-primary">
+	    								<i class="material-icons darkText">monetization_on</i>
+										<h4 class="darkText">Payments</h4>
+										<p class="darkText">Process any payments</p>
+										<p><a href="/fintech/products/payments/" class="purpleText">Learn more ></a></p>
+	    							</div>
+	    						</div>
+	    					</div>
+    				</div>
+    			</div>
+            </div>
+        </div>
+    </div>
+
+<!--     *********    PARTNERS SECTION     *********      -->
+	<div id="partners" class="cd-section section-light-gray cards">
+	    	<div class="container">	        			
+				<div class="col-md-8 col-md-offset-2 text-center" style="padding-top: 60px">
+    				<h2>Workbench is an API marketplace.</h5>
+					<h5> Partner with us and grow your business.</h5>
+    			</div>
+				<div class="col-md-8 col-md-offset-2" style="padding-top: 10px; padding-bottom: 40px">
+    				<h5 class="description">Workbench joins with approved third party API providers to bring customers a better, wider range of API products and services, all in one place, all with seamless plug and play. We love working together with like-minded, clever folk to bring customers the future of financial services. If this is you, don’t hesitate to contact us - we’d love to hear from you. </h5>
+    			</div>
+				<div class="row" id="title-buttons" style="padding-bottom: 60px">
+				<div class="col-md-6 col-md-offset-3 text-center"> 
+                  <a href="/fintech/about/contact/" class="btn btn-primary btn-round text-center buttonLen300">
+						<i class="material-icons">assignment_turned_in</i> apply now
+				  </a>
+			    </div>
+	    	</div>
+	</div>
+
+<!--     *********    SIGN UP SECTION     *********      -->
+	<div id="signUp" style="background:white">
+	    	<div class="container" style="padding-bottom: 100px">	        			
+				<div class="col-md-8 col-md-offset-2 text-center" style="padding-top: 60px">
+    				<h2>What will you create?</h2>
+					<h5>Use Workbench to build the future of financial services.</h5>
+					</br></br>
+    			</div>
+				<div class="row" id="title-buttons" style="padding-top: 60px">
+				<div class="col-md-4 text-center"> 
+                  <a href="/fintech/products/" class="btn btn-primary btn-round text-center buttonLen300">
+						<i class="material-icons">layers</i> Explore our Products
+				  </a>
+			    </div>
+				<div class="col-md-4 text-center"> 
+                  <a href="https://docs.goworkbench.io" class="btn btn-primary btn-round text-center buttonLen300">
+						<i class="material-icons">code</i> Read API Docs
+				  </a>
+			    </div>
+				<div class="col-md-4 text-center"> 
+                  <a href="/fintech/about/contact/" class="btn btn-primary btn-round text-center buttonLen300">
+						<i class="material-icons">email</i> Contact Us
+				  </a>
+			    </div>
+           </div>
+	    	</div>
+	</div>
+
+
+ <!--     *********    FOOTERS SECTION     *********      -->
+	<footer class="footer footer-black footer-big">
+	            		<div class="container">
+
+	            			<div class="content">
+	            				<div class="row">
+	            					<div class="col-md-3 col-sm-3 col-xs-4">
+	            						<h5>Products</h5>
+	            						<ul class="links-vertical">
+	            							<li>
+	            								<a href="/fintech/products/accounts/">
+	            								   Accounts
+	            								</a>
+	            							</li>
+	            							<li>
+	            								<a href="/fintech/products/payments/">
+	            									Payments
+	            								</a>
+	            							</li>
+	            							<!--
+											<li>
+	            								<a href="#pablo">
+	            									Fruad Marketplace
+	            								</a>
+	            							</li>
+											<li>
+	            								<a href="#pablo">
+	            									Pricing
+	            								</a>
+	            							</li> -->
+	            						</ul>
+	            					</div>
+	            					<div class="col-md-3 col-sm-3 col-xs-4">
+	            						<h5>About</h5>
+	            						<ul class="links-vertical">
+	            							<!--
+											<li>
+	            								<a href="#pablo">
+	            								   Blog
+	            								</a>
+	            							</li> -->
+											<li>
+	            								<a href="/fintech/about/company/">
+	            								   Company
+	            								</a>
+	            							</li>
+	            							<!--
+											<li>
+	            								<a href="#pablo">
+	            								   Security
+	            								</a>
+	            							</li> -->
+	            							<li>
+	            								<a href="/fintech/about/contact/">
+	            									Contact Us
+	            								</a>
+	            							</li>
+	            						</ul>
+	            					</div>
+	            					<div class="col-md-3 col-sm-3 col-xs-4">
+	            						<h5>Legal</h5>
+	            						<ul class="links-vertical">
+	            							<li>
+	            								<a href="/fintech/legal/privacy/">
+	            								   Privacy
+	            								</a>
+	            							</li>
+	            							<!--
+											<li>
+	            								<a href="#pablo">
+	            									Terms & Conditions
+	            								</a>
+	            							</li>
+	            							<li>
+	            								<a href="#pablo">
+	            								   Licences
+	            								</a>
+	            							</li> -->
+	            						</ul>
+	            					</div>
+
+	            					<div class="col-md-3 col-sm-3 col-xs-4">
+	            						<h5>Developer</h5>
+	            						<ul class="links-vertical">
+	            							<li>
+	            								<a href="https://docs.goworkbench.io">
+	            								   API Docs
+	            								</a>
+	            							</li>
+	            						</ul>
+	            					</div>
+	            				</div>
+	            			</div>
+	            			<hr />
+	            			<div class="pull-center icon-workbench_logo logosizebig"></div>
+							</br>
+							<div class="copyright pull-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Workbench, Inc.</div>
+							</br>
+							<div class="copyright pull-center">Made with <i class="fa fa-heart"></i> from all over the <i class="em em-earth_asia"></i>. Workbench is a truly global company. </div>
+							</br>
+							<div class="copyright pull-center"><a href="https://cashperlabs.com"><i class="em em-ghost"></i></a></div>
+	            		</div>
+	            	</footer>
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="../assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../assets/js/material.min.js"></script>
+
+	<!-- Smooth scrolling script -->
+	<script src="../assets/js/smoothscroller.js" type="text/javascript"></script>
+
+	<!--	Plugin for Select Form control, full documentation here: https://github.com/FezVrasta/dropdown.js -->
+	<script src="../assets/js/jquery.dropdown.js" type="text/javascript"></script>
+
+	<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/  -->
+	<script src="../assets/js/jquery.tagsinput.js"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="../assets/js/material-kit.js" type="text/javascript"></script>
+
+	<script>
+    $(document).ready(function() {
+
+      var tooltipShow = false;
+
+      /**
+       * show tooltip on click
+       */
+      $('#api').click(function(){
+        var offsetRight = $(window).width() - ($('#api').offset().left + $('#api').width());
+        if (offsetRight<170) {
+          $('#api-tooltip').css({ right: 10-offsetRight+'px' });
+				}
+        if (tooltipShow) {
+          $('#api-tooltip').animate({opacity: 0},{duration: 1000});
+        } else {
+          $('#api-tooltip').animate({opacity: 0.9},{duration: 1000});
+				}
+        console.log()
+        tooltipShow=!tooltipShow;
+      });
+
+      /**
+       * Remove the tooltip on mouseout
+       */
+      $('#api').mouseout(function(){
+        if (tooltipShow) {
+          $('#api-tooltip').animate({opacity: 0},{duration: 1000});
+          tooltipShow=!tooltipShow;
+        }
+      });
+
+    });
+	</script>
+</html>

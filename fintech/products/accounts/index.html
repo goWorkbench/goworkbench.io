@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/favicon/apple-icon-76x76.png">
+	<link rel="icon" type="image/png" href="../../../assets/img/favicon/favicon.ico">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<title>Accounts on Demand | Workbench</title>
+	<meta name="description" content="Accounts on Demand allows Workbench customers to add real bank accounts to their products instantly." />
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Playfair+Display:400,700,900|Material+Icons" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"/>
+	<link href="../../../assets/css/wb_custom.css" rel="stylesheet"/>
+
+	<!-- CSS Files -->
+    <link href="../../../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../assets/css/material-kit.css" rel="stylesheet"/>
+	<link href="../../../assets/css/wb.css" rel="stylesheet"/>
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../../../assets/css/prettify.css">
+	<script type="text/javascript" src="../../../assets/js/prettify.js"></script>
+
+	<!-- Chat Support -->
+	<script src="https://embed.small.chat/T1R6HL6QZG51653U9Y.js" async></script>
+
+
+	<!-- GOOGLE ANALYTICS CODE -->
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  		ga('create', 'UA-93538087-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
+</head>
+
+<body class="standardpage" onload="PR.prettyPrint()">
+		<nav class="navbar navbar-default navbar-fixed-top" id="sectionsNav">
+    	<div class="container">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a href="/fintech/"><h4 class="icon-workbench_full workbenchLogoBlue workbenchLogoH1"></h4></a>
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+    				<li class="dropdown fontBluePrimary">
+						<a href="/fintech/" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="material-icons">apps</i> Products
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu dropdown-with-icons">
+							<li>
+								<a href="">
+									<i class="material-icons">account_balance</i> Accounts
+								</a>
+							</li>
+							<li>
+								<a href="/fintech/payments">
+									<i class="material-icons">monetization_on</i> Payments
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="fontBluePrimary">
+						<a href="/fintech/about/contact">
+							<i class="material-icons">email</i> Contact Us</a>
+					</li>
+					<li>
+						<a href="https://docs.goworkbench.io" class="btn btn-primary btn-round">
+						<i class="material-icons">code</i> API Docs</a>
+					</li>
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+
+
+	<div class="page-header yellowgrad">
+		<div class="container">
+    		<div class="row">
+        		<div class="col-md-8 col-md-offset-2">
+                    <h1 class="title whiteText">Accounts</h1>
+                        <h4 class="whiteText">Bank accounts opened in minutes, not weeks.</h4>
+                </div>
+            </div>
+        </div>
+	</div>
+
+	<div class="main main-raised">
+		<div class="container">
+		</div>
+
+<!--     *********     FEATURES 5      *********      -->
+
+	<div class="features-3">
+		<div class="col-md-8 col-md-offset-2 text-center">
+			<h2 class="text-center">Get real bank accounts with a simple API call.</h2>
+			<h5>Workbench works with innovative financial institutions to make account opening for customers quick, secure and easy. If you’re an institution needing to move quickly, work outside your core accounts infrastructure or looking to replace your infrastructure, we can help.
+		</div>
+		<div class="container style="padding-top: 40px"">
+			<div class="section">
+				<div class="features">
+					<div class="row">
+						
+						<div class="col-md-4">
+							<div class="info">
+								<div class="icon text-center">
+									<i class="material-icons">timer</i>
+								</div>
+								<h4 class="text-center">Fast and Easy</h4>
+								<p>Possibly the fastest and easiest account opening experience for you and your customers. How fast? Measure in minutes, not weeks.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="info">
+								<div class="icon text-center">
+									<i class="fa fa-user-secret "></i>
+								</div>
+								<h4 class="text-center">Reduce Account Fraud</h4>
+								<p>Workbench works with mysafe, to give you world-leading customer identification security to correlate with your own identity checks. </p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="info">
+								<div class="icon text-center">
+									<i class="material-icons">lock_outline</i>
+								</div>
+								<h4 class="text-center">Increase Security </h4>
+								<p>End-to-end encryption. Different keys for every account. Secure tokenisation. Add <a href="https://mysafe.io">mysafe</a> and reduce your risk by outsourcing personal information storage.</p>
+							</div>
+						</div>
+	                </div>
+				</div>
+            </div>
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Instant Accounts</h3>
+					<p> Accounts infrastructure for financial institutions, custodial and other trustee service providers. Need an account to hold money on behalf of your customers? This is for you.</p>
+		        	<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="material-icons">account_balance_wallet</i>
+						</div>
+						<div class="description">
+							<h4>Sub-Accounts</h4>
+							<p>Workbench Instant Accounts uses sub-accounting infrastructure so you can manage your users' accounts with the Workbench Ledger. Funds are held with our primary banking partner.</p>
+						</div>
+		        	</div>
+					<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="fa fa-forward"></i>
+						</div>
+						<div class="description">
+							<h4>Turn-Key Opening</h4>
+							<p>Workbench Instant Accounts allows you to provide a great user experience by enabling you to create accounts for your users, instantly.</p>
+						</div>
+					</div>
+					<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="fa fa-dollar"></i>
+						</div>
+						<div class="description">
+							<h4>Instant Payments</h4>
+							<p>Workbench Instant Accounts allows for instant intra-payments using any currency, anywhere. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="fitInDiv" src="../../../assets/img/accounts/instantaccounts.png" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+						<img class="fitInDiv" src="../../../assets/img/accounts/accountsplus.png" />
+				</div>
+				<div class="col-md-6">
+					<h3>AccountsPlus</h3>
+					<p> Provide each of your customers their own individual bank account. </p>
+		        	<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="material-icons">account_balance</i>
+						</div>
+						<div class="description">
+							<h4>Choose your preferred bank</h4>
+							<p>With a simple click, Workbench's AccountsPlus API allows you to select your bank of choice.</p>
+						</div>
+		        	</div>
+					<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="material-icons">code</i>
+						</div>
+						<div class="description">
+							<h4>Same easy setup</h4>
+							<p>AccountsPlus uses the same Accounts API no matter which bank, making it easy for you to switch if you need. Are you a bank not on the list? Click here to get on board.</p>
+						</div>
+					</div>
+					<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="material-icons">update</i>
+						</div>
+						<div class="description">
+							<h4>Auto Update</h4>
+							<p>Workbench is always adding more banks to our platform, giving you more choice. As we add more banks, you get instant access to them, all without having to change your code. </p>
+							</br>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Workbench Ledger</h3>
+					<p> A ledger service to manage your user accounts. </p>
+		        	<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="material-icons">list</i>
+						</div>
+						<div class="description">
+							<h4>Master & Sub-Ledgers</h4>
+							<p>Our architecture automatically creates a master ledger and sub-ledger for each user. You can create infinite sub-ledgers to manage separation of funds by user, purpose, or currency.</p>
+						</div>
+		        	</div>
+					<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="fa fa-feed"></i>
+						</div>
+						<div class="description">
+							<h4>Transaction Feed</h4>
+							<p>Fast, efficient and secure. Workbench's Transaction Feed uniquely manages transaction data using blockchain principles. Each transaction can never be deleted, creating an immutable transaction history.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="fitInDiv" src="../../../assets/img/accounts/ledger.png" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+						<img class="fitInDiv" src="../../../assets/img/accounts/transactiondata.png" />
+				</div>
+				<div class="col-md-6">
+					<h3>Financial Transaction Data</h3>
+					<p> Enable your users to retreive their transaction data - privately, securely. </p>
+		        	<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="material-icons">card_giftcard</i>
+						</div>
+						<div class="description">
+							<h4>Beautiful Data</h4>
+							<p>The Workbench Transaction Data API provides nice, clean user financial transaction data. No need for any clean-up. It's all been done for you. </p>
+						</div>
+		        	</div>
+					<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="material-icons">receipt</i>
+						</div>
+						<div class="description">
+							<h4>Transaction Analytics</h4>
+							<p>Workbench provides added transaction analytics on top of the data. Know the category, location, merchant name and more.  </p>
+						</div>
+					</div>
+					<div class="info info-horizontal">
+						<div class="icon icon-primary">
+							<i class="material-icons">vpn_key</i>
+						</div>
+						<div class="description">
+							<h4>Secure and Encrypted</h4>
+							<p>Using mySafe, transaction data is secure and encrypted for your user's maximum protection. As a business, you never see user credentials, reducing your security burden.</p>
+							</br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--     *********    END FEATURES 5      *********      -->
+<div class="container">
+		</div>
+
+<!--     *********     CODE EXAMPLES PAYMENTS      *********      -->
+
+	<div class="features-3">
+		<div class="col-md-8 col-md-offset-2 text-center">
+			<h2 class="text-center">Accounts in code. Very nice.</h2>
+			<h5>Beautiful. Simple. JSON web API calls. </h5>
+		</div>
+		<div class="container">
+			<div class="row col-md-10 col-md-offset-1" style="padding-top: 40px">
+	            <div class="col-md-3">
+	                <ul class="nav nav-pills nav-pills-icons nav-stacked " role="tablist">
+						<li class="active">
+	            			<a href="/fintech/#list-bank-accounts" role="tab" data-toggle="tab">
+	            			<i class="material-icons">credit_card</i>List Bank Accounts</a>
+	            		</li>
+	            		<li >
+	                        <a href="/fintech/#connect-bank-account" role="tab" data-toggle="tab">
+	            			<i class="material-icons">account_balance</i>Connect Bank Account</a>
+	                    </li>
+						<li >
+	                        <a href="/fintech/#show-transaction" role="tab" data-toggle="tab">
+	            			<i class="material-icons">assignment</i>Show a Transaction</a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="col-md-9">
+	                <div class="tab-content">
+	                    <div class="tab-pane active" id="list-bank-accounts">
+							<div class="col-md-10">
+								<div class="card cardTopBorderPrimary cardBenefits">
+	    							<div class="content content-primary">
+										<pre class="prettyprint linenums lang-xls">
+{
+    userId: "jason.borne@livemail.com",
+    name: "Jason Borne",
+    provider: "Macquarie Bank Australia",
+    productCode: "Cash Management Account",
+    bsb: "100123",
+    accountNumber: "12349876",
+    status: "active",
+    ledger: {
+      ledgerBalance: 45,720,
+      totalBalance: 66,029,
+      subLedgers: {"savings", "transactions", "carfund}",
+      transactions: [
+        {
+          id: "388492736195",
+          ledgerId: "JJIAKLO983BNZY",
+          timestamp: "1491985971",
+          type: "credit",
+          status: "pending",
+          amount: 50,
+          description: "Accounting Software Subscription"
+        }
+      ]
+    }
+  }</pre>
+	    							</div>
+	    						</div>
+	    					</div>
+	                    	</div>
+	                    <div class="tab-pane" id="connect-bank-account">
+	                        <div class="col-md-10">
+								<div class="card cardTopBorderPrimary cardBenefits">
+	    							<div class="content content-primary">
+										<pre class="prettyprint linenums lang-xls">
+{
+  name: "MyApp Account",
+  provider: "ING Direct",
+  productCode: "Savings Maximiser"
+}</pre>
+	    							</div>
+	    						</div>
+	    					</div>
+	                    </div>
+						<div class="tab-pane" id="show-transaction">
+	                        <div class="col-md-10">
+								<div class="card cardTopBorderPrimary cardBenefits">
+	    							<div class="content content-primary">
+										<pre class="prettyprint linenums lang-xls">
+{
+    userId: "jason.borne@livemail.com",
+    name: "Jason Borne",
+    provider: "Macquarie Bank Australia",
+    productCode: "Cash Management Account",
+    bsb: "100123",
+    accountNumber: "12349876",
+    status: "active",
+    ledger: {
+      ledgerBalance: 45,720,
+      totalBalance: 66,029,
+      subLedgers: {"savings", "transactions", "carfund}",
+      transactions: [
+        {
+          id: "388492736195",
+          ledgerId: "JJIAKLO983BNZY",
+          timestamp: "1491985971",
+          type: "credit",
+          status: "pending",
+          amount: 50,
+          description: "Accounting Software Subscription"
+        }
+	   metadata : [
+	   {
+		location: 
+		{
+			address: "23 Market Street",
+			city: "Sydney",
+			state: "NSW",
+			longitude: 151.205048,
+			latitude: -33.870950,
+		}
+		category: 
+		{
+			type: "stationary",
+		}
+		merchant: 
+		{
+			name: "Officeworks",
+		}
+	   }
+      ]
+    }
+  }</pre>
+	    							</div>
+	    						</div>
+	    					</div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+		</div>
+		<div class="row" id="title-buttons">
+				<div class="col-md-12 text-center"> 
+                  <a href="/fintech/" class="btn btn-primary btn-round text-center">
+						<i class="material-icons">layers</i> Explore our Products
+					</a>
+			    </div>
+           </div>
+	</div>
+	<!--     *********     CODE EXAMPLES PAYMENTS       *********      -->
+
+
+
+	</div>
+
+
+<!--     *********    FOOTERS SECTION     *********      -->
+	<footer class="footer footer-black footer-big">
+	            		<div class="container">
+
+	            			<div class="content">
+	            				<div class="row">
+	            					<div class="col-md-3 col-sm-3 col-xs-4">
+	            						<h5>Products</h5>
+	            						<ul class="links-vertical">
+	            							<li>
+	            								<a href="">
+	            								   Accounts
+	            								</a>
+	            							</li>
+	            							<li>
+	            								<a href="/fintech/payments">
+	            									Payments
+	            								</a>
+	            							</li>
+	            							<!--
+											<li>
+	            								<a href="#pablo">
+	            									Fruad Marketplace
+	            								</a>
+	            							</li>
+											<li>
+	            								<a href="#pablo">
+	            									Pricing
+	            								</a>
+	            							</li> -->
+	            						</ul>
+	            					</div>
+	            					<div class="col-md-3 col-sm-3 col-xs-4">
+	            						<h5>About</h5>
+	            						<ul class="links-vertical">
+	            							<!--
+											<li>
+	            								<a href="#pablo">
+	            								   Blog
+	            								</a>
+	            							</li> -->
+											<li>
+	            								<a href="/fintech/about/company">
+	            								   Company
+	            								</a>
+	            							</li>
+	            							<!--
+											<li>
+	            								<a href="#pablo">
+	            								   Security
+	            								</a>
+	            							</li> -->
+	            							<li>
+	            								<a href="/fintech/about/contact">
+	            									Contact Us
+	            								</a>
+	            							</li>
+	            						</ul>
+	            					</div>
+	            					<div class="col-md-3 col-sm-3 col-xs-4">
+	            						<h5>Legal</h5>
+	            						<ul class="links-vertical">
+	            							<li>
+	            								<a href="/fintech/legal/privacy/">
+	            								   Privacy
+	            								</a>
+	            							</li>
+	            							<!--
+											<li>
+	            								<a href="#pablo">
+	            									Terms & Conditions
+	            								</a>
+	            							</li>
+	            							<li>
+	            								<a href="#pablo">
+	            								   Licences
+	            								</a>
+	            							</li> -->
+	            						</ul>
+	            					</div>
+
+	            					<div class="col-md-3 col-sm-3 col-xs-4">
+	            						<h5>Developer</h5>
+	            						<ul class="links-vertical">
+	            							<li>
+	            								<a href="https://docs.goworkbench.io">
+	            								   API Docs
+	            								</a>
+	            							</li>
+	            						</ul>
+	            					</div>
+	            				</div>
+	            			</div>
+
+	            			<hr />
+	            			<div class="pull-center icon-workbench_logo logosizebig"></div>
+							</br>
+							<div class="copyright pull-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Workbench, Inc.</div>
+							</br>
+							<div class="copyright pull-center">Made with <i class="fa fa-heart"></i> from all over the <i class="em em-earth_asia"></i>. Workbench is a truly global company. </div>
+							</br>
+							<div class="copyright pull-center"><a href="https://cashperlabs.com"><i class="em em-ghost"></i></a></div>
+	            		</div>
+	            	</footer>
+
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="../../../assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="../../../assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../../assets/js/material.min.js"></script>
+
+	<!-- Smooth scrolling script -->
+	<script src="../../../assets/js/smoothscroller.js" type="text/javascript"></script>
+
+	<!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ 
+	<script src="../../assets/js/nouislider.min.js" type="text/javascript"></script> -->
+
+	<!--	Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ 
+	<script src="../../assets/js/bootstrap-datepicker.js" type="text/javascript"></script> -->
+
+	<!--	Plugin for Select Form control, full documentation here: https://github.com/FezVrasta/dropdown.js 
+	<script src="../../assets/js/jquery.dropdown.js" type="text/javascript"></script> -->
+
+	<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/  -->
+	<script src="../../../assets/js/jquery.tagsinput.js"></script>
+
+	<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput 
+	<script src="../../assets/js/jasny-bootstrap.min.js"></script> -->
+
+	<!-- Plugin For Google Maps 
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> -->
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="../../../assets/js/material-kit.js" type="text/javascript"></script>
+
+
+</html>
